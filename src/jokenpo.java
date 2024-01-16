@@ -13,7 +13,7 @@ public class jokenpo {
             String escolhaJogador = scanner.next().toLowerCase();
             
             if(escolhaJogador.equals("sair")){
-                System.out.println("Tchau");
+                System.out.println("Ate a proxima");
                 break;
             }
 
@@ -29,8 +29,6 @@ public class jokenpo {
             System.out.println(vencedor);
 
         }
-        
-
     }
 
     private static String converterPc(int escolhaPc){
@@ -49,8 +47,6 @@ public class jokenpo {
                 return "";
                 
         }
-
-
     }
 
     private static String logicaVencedor(String escolhaJogador, String escolhaPc) {
@@ -65,9 +61,6 @@ public class jokenpo {
 
                   }
     }
+}               
 
-    
-    }
-                
-
-    
+//16/01/24
